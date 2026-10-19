@@ -24,3 +24,9 @@ The `goodworks.svg` wallpaper is original. Goodworks OS is an independent Ubuntu
 
 See [FEATURES.md](FEATURES.md) for three local tools included for nonprofit administration.
 
+
+The installer also includes three purpose-specific applications: **GNOME Calendar, KeePassXC, VSCodium**. See [FEATURES.md](FEATURES.md).
+
+The installer also includes three purpose-specific applications: **GNOME Calendar, KeePassXC, VSCodium**. See [FEATURES.md](FEATURES.md).
+
+The installer also includes three purpose-specific applications: **GNOME Calendar, KeePassXC, VSCodium**. See [FEATURES.md](FEATURES.md).
