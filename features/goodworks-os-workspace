@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+base="$HOME/Documents/goodworks-os-workspace"
+mkdir -p "$base/Tasks" "$base/Records" "$base/Reference"
+printf 'Workspace ready: %s\n' "$base"

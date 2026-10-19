@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p "$HOME/Documents/goodworks-os-session-plans"
+file="$HOME/Documents/goodworks-os-session-plans/plan-$(date +%Y%m%d-%H%M%S).md"
+{
+ printf '# goodworks-os session plan\n\n'
+ printf 'Created: %s\n\n' "$(date -Is)"
+ printf 'Purpose: nonprofit administration\n\n## Prompts\n'
+ printf '%s\n' '- What work item will you finish?' '- What is the next concrete action?' '- What records, approvals, or deadline matter?'
+ printf '\n## Notes\n'
+} > "$file"
+nano "$file"
+printf 'Saved locally: %s\n' "$file"

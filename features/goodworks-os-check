@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ask(){ local answer; read -r -p "$1 [y/N] " answer; [[ "$answer" =~ ^[Yy]([Ee][Ss])?$ ]]; }
+echo 'goodworks-os readiness checklist'
+ask 'Are financial or personal records stored privately?' || true
+ask 'Are source documents and versions clear?' || true
+ask 'Is the next action and deadline recorded?' || true
+echo 'Checklist complete. Answers were not saved or transmitted.'
