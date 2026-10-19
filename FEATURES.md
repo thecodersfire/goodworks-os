@@ -22,3 +22,20 @@ The installer adds these three Flathub applications for nonprofit administration
 3. **VSCodium** — com.vscodium.codium
 
 They are installed from Flathub during setup. The repository contains application IDs and documentation, not third-party binaries; each publisher’s terms and licenses apply.
+
+## Ten more purpose-specific preinstalled applications
+
+The setup installs these ten Flathub apps selected for nonprofit administration:
+
+1. **Zotero** — manage research sources and citations (org.zotero.Zotero)
+2. **GNOME Clocks** — time work sessions and events (org.gnome.clocks)
+3. **GNOME Contacts** — organize partner and team contacts (org.gnome.Contacts)
+4. **GNOME Papers** — read project and reference PDFs (org.gnome.Papers)
+5. **Document Scanner** — digitize paper notes and forms (org.gnome.SimpleScan)
+6. **Foliate** — read EPUB books (com.github.johnfactotum.Foliate)
+7. **Calibre** — organize ebooks and convert documents (com.calibre_ebook.calibre)
+8. **Anki** — create spaced-repetition study decks (net.ankiweb.Anki)
+9. **GNOME Text Editor** — edit plain-text notes and configuration files (org.gnome.TextEditor)
+10. **GNOME Calculator** — perform scientific and financial calculations (org.gnome.Calculator)
+
+Flathub distributes the app packages. Check each publisher license and terms. This repository contains app IDs and documentation, not third-party binaries.
